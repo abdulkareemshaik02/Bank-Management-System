@@ -6,7 +6,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="root",  
+        password="Y21CIT046",  
         database="bank_system"
     )
 
@@ -207,3 +207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
